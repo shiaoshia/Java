@@ -31,7 +31,6 @@ class ex2
 		byte z2=x+y;  
 		error: incompatible types: possible lossy conversion from int to byte
 		*/
-		byte z2 = (byte)(x+y);
-		
+		byte z2 = (byte)(x+y);	
 	}
 }
